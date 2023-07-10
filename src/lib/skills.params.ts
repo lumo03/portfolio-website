@@ -197,6 +197,27 @@ const MY_SKILLS = [
 		description: '',
 		logo: Assets.Fastify,
 		name: 'Fastify'
+	}),
+	s({
+		slug: 'vite',
+		color: 'purple',
+		description: '',
+		logo: Assets.Vite,
+		name: 'Vite'
+	}),
+	s({
+		slug: 'vitest',
+		color: 'green',
+		description: '',
+		logo: Assets.Vitest,
+		name: 'Vitest'
+	}),
+	s({
+		slug: 'jest',
+		color: 'green',
+		description: '',
+		logo: Assets.Jest,
+		name: 'Jest'
 	})
 ];
 

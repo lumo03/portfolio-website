@@ -29,7 +29,9 @@ const MY_EXPERIENCES: Array<Experience> = [
 			'redis',
 			'mongodb',
 			'fastify',
-			'docker'
+			'docker',
+			'vite',
+			'jest'
 		)
 	},
 	{
