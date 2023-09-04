@@ -7,6 +7,7 @@ export type ArrayElementType<ArrayType extends readonly unknown[]> =
 	ArrayType extends readonly (infer ElementType)[] ? ElementType : never;
 
 const MY_SKILLS = [
+	// LANGUAGES
 	s({
 		slug: 'js',
 		color: 'yellow',
@@ -21,27 +22,32 @@ const MY_SKILLS = [
 		logo: Assets.TypeScript,
 		name: 'Typescript'
 	}),
+	s({ slug: 'dart', color: 'cyan', description: '', logo: Assets.Dart, name: 'Dart' }),
+	s({ slug: 'kotlin', color: 'purple', description: '', logo: Assets.Kotlin, name: 'Kotlin' }),
+	s({ slug: 'go', color: 'cyan', description: '', logo: Assets.Go, name: 'Go' }),
 	s({
-		slug: 'css',
-		color: 'blue',
+		slug: 'java',
+		color: 'red',
 		description: '',
-		logo: Assets.CSS,
-		name: 'CSS'
+		logo: Assets.Java,
+		name: 'Java'
 	}),
 	s({
-		slug: 'html',
-		color: 'orange',
+		slug: 'csharp',
+		color: 'purple',
 		description: '',
-		logo: Assets.HTML,
-		name: 'HTML'
+		logo: Assets.Csharp,
+		name: 'C#'
 	}),
 	s({
-		slug: 'sass',
-		color: 'pink',
+		slug: 'python',
+		color: 'yellow',
 		description: '',
-		logo: Assets.Sass,
-		name: 'Sass'
+		logo: Assets.Python,
+		name: 'Python'
 	}),
+
+	// FRAMEWORKS
 	s({
 		slug: 'reactjs',
 		color: 'cyan',
@@ -58,6 +64,33 @@ const MY_SKILLS = [
 	}),
 	s({ slug: 'vue', color: 'green', description: '', logo: Assets.VueJs, name: 'VueJs' }),
 	s({ slug: 'nuxt', color: 'green', description: '', logo: Assets.Nuxt, name: 'Nuxt' }),
+	s({ slug: 'flutter', color: 'green', description: '', logo: Assets.Flutter, name: 'Flutter' }),
+	s({ slug: 'solid', color: 'blue', description: '', logo: Assets.SolidJs, name: 'Solid JS' }),
+	s({ slug: 'quasar', color: 'purple', description: '', logo: Assets.Quasar, name: 'Quasar' }),
+	s({
+		slug: 'electron',
+		color: 'purple',
+		description: '',
+		logo: Assets.Electron,
+		name: 'Electron JS'
+	}),
+	s({
+		slug: 'angular',
+		color: 'red',
+		description: '',
+		logo: Assets.Angular,
+		name: 'Angular'
+	}),
+	s({
+		slug: 'xamarin',
+		color: 'purple',
+		description: '',
+		logo: Assets.Xamarin,
+		name: 'Xamarin'
+	}),
+
+	// ENV & BACKEND
+
 	s({ slug: 'node', color: 'green', description: '', logo: Assets.NodeJs, name: 'Node JS' }),
 	s({
 		slug: 'deno',
@@ -66,12 +99,14 @@ const MY_SKILLS = [
 		logo: Assets.Deno,
 		name: 'Deno'
 	}),
-	s({ slug: 'dart', color: 'cyan', description: '', logo: Assets.Dart, name: 'Dart' }),
-	s({ slug: 'flutter', color: 'green', description: '', logo: Assets.Flutter, name: 'Flutter' }),
-	s({ slug: 'solid', color: 'blue', description: '', logo: Assets.SolidJs, name: 'Solid JS' }),
-	s({ slug: 'quasar', color: 'purple', description: '', logo: Assets.Quasar, name: 'Quasar' }),
-	s({ slug: 'kotlin', color: 'purple', description: '', logo: Assets.Kotlin, name: 'Kotlin' }),
-	s({ slug: 'go', color: 'cyan', description: '', logo: Assets.Go, name: 'Go' }),
+
+	s({
+		slug: 'fastify',
+		color: 'fastify',
+		description: '',
+		logo: Assets.Fastify,
+		name: 'Fastify'
+	}),
 	s({
 		slug: 'express',
 		color: 'white',
@@ -79,13 +114,8 @@ const MY_SKILLS = [
 		logo: Assets.ExpressJs,
 		name: 'Express JS'
 	}),
-	s({
-		slug: 'electron',
-		color: 'purple',
-		description: '',
-		logo: Assets.Electron,
-		name: 'Electron JS'
-	}),
+
+	// DATABASES
 	s({
 		slug: 'postgresql',
 		color: 'blue',
@@ -108,25 +138,73 @@ const MY_SKILLS = [
 		name: 'MongoDB'
 	}),
 	s({
-		slug: 'java',
-		color: 'red',
-		description: '',
-		logo: Assets.Java,
-		name: 'Java'
-	}),
-	s({
-		slug: 'angular',
-		color: 'red',
-		description: '',
-		logo: Assets.Angular,
-		name: 'Angular'
-	}),
-	s({
 		slug: 'redis',
 		color: 'red',
 		description: '',
 		logo: Assets.Redis,
 		name: 'Redis'
+	}),
+
+	// DEVOPS
+	s({
+		slug: 'docker',
+		color: 'blue',
+		description: '',
+		logo: Assets.Docker,
+		name: 'Docker'
+	}),
+	s({
+		slug: 'kubernetes',
+		color: 'purple',
+		description: '',
+		logo: Assets.Kubernetes,
+		name: 'Kubernetes'
+	}),
+
+	// TOOLS & TESTING
+	s({
+		slug: 'vite',
+		color: 'purple',
+		description: '',
+		logo: Assets.Vite,
+		name: 'Vite'
+	}),
+	s({
+		slug: 'vitest',
+		color: 'green',
+		description: '',
+		logo: Assets.Vitest,
+		name: 'Vitest'
+	}),
+	s({
+		slug: 'jest',
+		color: 'green',
+		description: '',
+		logo: Assets.Jest,
+		name: 'Jest'
+	}),
+
+	// MARKUP & STYLING
+	s({
+		slug: 'css',
+		color: 'blue',
+		description: '',
+		logo: Assets.CSS,
+		name: 'CSS'
+	}),
+	s({
+		slug: 'html',
+		color: 'orange',
+		description: '',
+		logo: Assets.HTML,
+		name: 'HTML'
+	}),
+	s({
+		slug: 'sass',
+		color: 'pink',
+		description: '',
+		logo: Assets.Sass,
+		name: 'Sass'
 	}),
 	s({
 		slug: 'tailwind',
@@ -135,27 +213,9 @@ const MY_SKILLS = [
 		logo: Assets.Tailwind,
 		name: 'Tailwind'
 	}),
-	s({
-		slug: 'csharp',
-		color: 'purple',
-		description: '',
-		logo: Assets.Csharp,
-		name: 'C#'
-	}),
-	s({
-		slug: 'xamarin',
-		color: 'purple',
-		description: '',
-		logo: Assets.Xamarin,
-		name: 'Xamarin'
-	}),
-	s({
-		slug: 'python',
-		color: 'yellow',
-		description: '',
-		logo: Assets.Python,
-		name: 'Python'
-	}),
+
+	// DESIGN
+
 	s({
 		slug: 'ps',
 		color: 'cyan',
@@ -183,48 +243,6 @@ const MY_SKILLS = [
 		description: '',
 		logo: Assets.Illustrator,
 		name: 'Adobe Illustrator'
-	}),
-	s({
-		slug: 'docker',
-		color: 'blue',
-		description: '',
-		logo: Assets.Docker,
-		name: 'Docker'
-	}),
-	s({
-		slug: 'kubernetes',
-		color: 'purple',
-		description: '',
-		logo: Assets.Kubernetes,
-		name: 'Kubernetes'
-	}),
-	s({
-		slug: 'fastify',
-		color: 'fastify',
-		description: '',
-		logo: Assets.Fastify,
-		name: 'Fastify'
-	}),
-	s({
-		slug: 'vite',
-		color: 'purple',
-		description: '',
-		logo: Assets.Vite,
-		name: 'Vite'
-	}),
-	s({
-		slug: 'vitest',
-		color: 'green',
-		description: '',
-		logo: Assets.Vitest,
-		name: 'Vitest'
-	}),
-	s({
-		slug: 'jest',
-		color: 'green',
-		description: '',
-		logo: Assets.Jest,
-		name: 'Jest'
 	})
 ];
 

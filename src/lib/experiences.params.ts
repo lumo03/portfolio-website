@@ -30,6 +30,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 			'mongodb',
 			'fastify',
 			'docker',
+			'kubernetes',
 			'vite',
 			'jest'
 		)
