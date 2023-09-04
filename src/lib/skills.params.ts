@@ -1,6 +1,5 @@
 import Assets from './data/assets';
 import type { Skill } from './types';
-import svelte from './md/svelte.md?raw';
 
 const s = (skill: Skill) => skill;
 
@@ -72,6 +71,7 @@ const MY_SKILLS = [
 	s({ slug: 'solid', color: 'blue', description: '', logo: Assets.SolidJs, name: 'Solid JS' }),
 	s({ slug: 'quasar', color: 'purple', description: '', logo: Assets.Quasar, name: 'Quasar' }),
 	s({ slug: 'kotlin', color: 'purple', description: '', logo: Assets.Kotlin, name: 'Kotlin' }),
+	s({ slug: 'go', color: 'cyan', description: '', logo: Assets.Go, name: 'Go' }),
 	s({
 		slug: 'express',
 		color: 'white',
@@ -190,6 +190,13 @@ const MY_SKILLS = [
 		description: '',
 		logo: Assets.Docker,
 		name: 'Docker'
+	}),
+	s({
+		slug: 'kubernetes',
+		color: 'purple',
+		description: '',
+		logo: Assets.Kubernetes,
+		name: 'Kubernetes'
 	}),
 	s({
 		slug: 'fastify',
