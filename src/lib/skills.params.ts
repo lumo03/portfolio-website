@@ -1,6 +1,8 @@
 import Assets from './data/assets';
 import type { Skill } from './types';
 
+import js_md from '$lib/md/js.md?raw';
+
 const s = (skill: Skill) => skill;
 
 export type ArrayElementType<ArrayType extends readonly unknown[]> =
@@ -11,7 +13,7 @@ const MY_SKILLS = [
 	s({
 		slug: 'js',
 		color: 'yellow',
-		description: 'I think I unlocked all Javascript and have almost 100% achievement.',
+		description: js_md,
 		logo: Assets.JavaScript,
 		name: 'Javascript'
 	}),
