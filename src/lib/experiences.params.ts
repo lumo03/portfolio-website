@@ -8,6 +8,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		name: 'Fullstack Developer',
 		company: 'HSTECH',
 		description: '',
+		shortDescription: '',
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Remote, Tunisia',
@@ -41,6 +42,8 @@ const MY_EXPERIENCES: Array<Experience> = [
 		company: 'Self-employed',
 		description:
 			'Creating Mobile and Web Apps for customers using various technologies like "Xamarin", "Native Android", "React" ...',
+		shortDescription:
+			'Creating Mobile and Web Apps for customers using various technologies like "Xamarin", "Native Android", "React" ...',
 		contract: ContractType.Freelance,
 		type: 'Software Development',
 		color: 'white',
@@ -55,6 +58,8 @@ const MY_EXPERIENCES: Array<Experience> = [
 		name: 'Web Designer',
 		company: 'TriWeb',
 		description:
+			'My job consisted of designing (Using Adobe Photoshop and Illustrator) the graphical charter of turnkey websites and integrating them with the help of a custom CMS made for TriWeb.',
+		shortDescription:
 			'My job consisted of designing (Using Adobe Photoshop and Illustrator) the graphical charter of turnkey websites and integrating them with the help of a custom CMS made for TriWeb.',
 		contract: ContractType.FullTime,
 		type: 'UI Design',
@@ -74,6 +79,8 @@ const MY_EXPERIENCES: Array<Experience> = [
 		logo: Assets.Unknown,
 		description:
 			'Designing graphics for small startups and companies, Creating logos, posters ... etc',
+		shortDescription:
+			'Designing graphics for small startups and companies, Creating logos, posters ... etc',
 		contract: ContractType.Freelance,
 		type: 'Graphic Design',
 		location: 'Tunisia',
@@ -88,6 +95,8 @@ const MY_EXPERIENCES: Array<Experience> = [
 		links: [],
 		logo: Assets.Unknown,
 		description:
+			'We developed the prototype of "SMARTchair" which is an EEG controlled wheelchair. Using our skills was not enough, so it was imminent for us to learn and get used to many other programming languages, software and even new operating systems. The project was defended the 19th of July 2020 and got "Very Good" as honor.',
+		shortDescription:
 			'We developed the prototype of "SMARTchair" which is an EEG controlled wheelchair. Using our skills was not enough, so it was imminent for us to learn and get used to many other programming languages, software and even new operating systems. The project was defended the 19th of July 2020 and got "Very Good" as honor.',
 		contract: ContractType.Internship,
 		type: 'Robotics',
