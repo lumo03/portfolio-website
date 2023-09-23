@@ -54,7 +54,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		skills: getSkills('js', 'node', 'reactjs', 'kotlin', 'firebase', 'xamarin', 'csharp')
 	},
 	{
-		slug: 'web-designer@triwen',
+		slug: 'web-designer@triweb',
 		name: 'Web Designer',
 		company: 'TriWeb',
 		description:
