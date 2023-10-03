@@ -225,6 +225,20 @@ const MY_SKILLS = [
 		name: 'HTML'
 	}),
 	s({
+		slug: 'postcss',
+		color: 'red',
+		description: '',
+		logo: 'https://postcss.org/assets/postcss-83d93145.svg',
+		name: 'PostCSS'
+	}),
+	s({
+		slug: 'unocss',
+		color: 'gray',
+		description: '',
+		logo: 'https://unocss.dev/logo.svg',
+		name: 'UnoCSS'
+	}),
+	s({
 		slug: 'sass',
 		color: 'pink',
 		description: '',

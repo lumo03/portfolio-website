@@ -33,7 +33,9 @@ const MY_EXPERIENCES: Array<Experience> = [
 			'docker',
 			'kubernetes',
 			'vite',
-			'jest'
+			'jest',
+			'unocss',
+			'postcss'
 		)
 	},
 	{
